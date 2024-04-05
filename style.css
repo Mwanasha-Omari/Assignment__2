@@ -1,0 +1,213 @@
+#USD{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+background-color: rgb(79, 138, 79);
+color: white;
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#navbar{
+    display: flex;
+justify-content: center;
+justify-content: space-around;
+justify-content: space-evenly;
+}
+#icons img{
+width: 20px;
+height: 20px;
+
+
+
+}
+#logo img{
+width: 100px;
+height: 50px;
+object-fit: cover;
+margin-left: 00px;
+
+}
+#template{
+    background-image: url("images/threepts.webp");
+background-repeat: no-repeat;
+width:300px ;
+height: 300px;
+margin-top: 300px;
+object-fit: cover;
+
+}
+
+#flowerpots{
+display: flex;
+justify-content: space-between;
+
+}
+#choices{
+display: flex;
+gap: 50px;
+}
+#choice{
+display: flex;
+gap: 50px;
+}
+#sale{
+background-image: url("images/SIX.jpg");
+background: width 100px; ;
+background-repeat: no-repeat;
+color: white;
+}
+#house{
+background-image: url("images/SEVEN.jpg");
+color: white;
+
+}
+#home{
+display: flex;
+gap: 50px;
+
+}
+#off{
+background-image: url("images/THREE.jpg");
+color: white;
+}
+#allplants{
+display: flex;
+justify-content: center;
+/* justify-content: space-around; */
+gap: 70px;
+
+}
+#new{
+display: flex;
+gap: 50px;
+
+}
+#new img{
+height: 500px;
+width: 500px;
+margin-top: 100px;
+object-fit: cover;
+
+}
+#upper{
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+#lower{
+
+    display: flex;
+    gap: 50px;
+ 
+}
+#lower img{
+width: 200px;
+height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#upper img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+
+
+}
+#bottle{
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+#item{
+display: flex;
+gap: 15px;
+
+}
+#item button{
+background-color: rgb(22, 187, 22);
+border-radius: 5px;
+border: none;
+}
+#stem{
+    display: flex;
+gap: 40px;
+
+
+}
+#stem img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+#price{
+background-image: url("images/pot13.avif");
+color: white;
+}
+#three img{
+border-radius: 20px;
+
+}
+#only{
+
+    display: flex;
+    gap: 40px;
+}
+#person img{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: rgb(224, 213, 213);
+}
+#be{
+    display: flex;
+    gap: 40px;
+
+}
+#two img{
+width: 350px;
+height: 250px;
+object-fit: cover;
+border-radius: 10px;
+}
+#urban img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(224, 213, 213);
+
+}
+#people{
+    display: flex;
+    gap: 40px;
+
+}
+#people img{
+    border-radius: 20px;
+width: 70px;
+height: 70px;
+object-fit: cover;
+
+}
+#media{
+display: flex;
+gap: 20px;
+}
+#media img{
+width: 20px;
+height: 20px;
+}
+#footer{
+display: flex;
+gap: 50px;
+}
+#item{
+
+
+}
