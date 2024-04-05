@@ -12,8 +12,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #navbar{
     display: flex;
 justify-content: center;
-justify-content: space-around;
-justify-content: space-evenly;
+gap:80px ;
 }
 #icons img{
 width: 20px;
@@ -32,16 +31,24 @@ margin-left: 00px;
 #template{
     background-image: url("images/threepts.webp");
 background-repeat: no-repeat;
-width:300px ;
-height: 300px;
+background-size: cover;
+width:500px ;
+height: 400px;
 margin-top: 300px;
 object-fit: cover;
+border-radius: 10px;
+
+}
+#template i{
+font-size: xx-large;
+
 
 }
 
 #flowerpots{
 display: flex;
-justify-content: space-between;
+gap: 40px;
+justify-content: center;
 
 }
 #choices{
@@ -57,31 +64,55 @@ background-image: url("images/SIX.jpg");
 background: width 100px; ;
 background-repeat: no-repeat;
 color: white;
+background-size: cover;
+width: 300px;
+height: 150px;
+border-radius: 10px;
 }
 #house{
 background-image: url("images/SEVEN.jpg");
 color: white;
+background-size: cover;
+width: 300px;
+height: 150px;
+border-radius: 10px;
+}
+#bottle img{
+width: 400px;
+height: 300px;
+border-radius: 5px;
 
 }
 #home{
 display: flex;
 gap: 50px;
+justify-content: center;
+
+}
+#or{
+margin-top: 12px;
 
 }
 #off{
 background-image: url("images/THREE.jpg");
 color: white;
+background-size: cover;
+width: 300px;
+height: 150px;
+border-radius: 10px;
 }
 #allplants{
 display: flex;
 justify-content: center;
 /* justify-content: space-around; */
 gap: 70px;
+font-size: xx-large;
 
 }
 #new{
 display: flex;
-gap: 50px;
+gap: 20px;
+justify-content: center;
 
 }
 #new img{
@@ -90,6 +121,21 @@ width: 500px;
 margin-top: 100px;
 object-fit: cover;
 
+}
+#white p{
+font-size: xx-large;
+
+}
+#white span{
+color: green;
+display: flex;
+justify-content: center;
+}
+#pop img{
+height: 400px;
+width: 300px;
+object-fit: cover;
+border-radius: 10px;
 }
 #upper{
 
@@ -133,10 +179,12 @@ gap: 15px;
 background-color: rgb(22, 187, 22);
 border-radius: 5px;
 border: none;
+margin-left: 200px;
 }
 #stem{
     display: flex;
 gap: 40px;
+justify-content: center;
 
 
 }
@@ -149,25 +197,41 @@ gap: 40px;
 #price{
 background-image: url("images/pot13.avif");
 color: white;
+background-size: cover;
+width: 700px;
+height: 300px;
+border-radius: 10px;
+margin-left: 600px;
+text-align: center;
+
 }
 #three img{
 border-radius: 20px;
 
 }
+#grow{
+  font-size: xx-large;  
+  justify-content: center;
+  display: flex;
+}
+
 #only{
 
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 #person img{
 width: 25px;
 height: 25px;
 border-radius: 50%;
 background-color: rgb(224, 213, 213);
+margin-left: 100px;
 }
 #be{
     display: flex;
     gap: 40px;
+    justify-content: center;
 
 }
 #two img{
@@ -186,6 +250,7 @@ border-radius: 10px;
 #people{
     display: flex;
     gap: 40px;
+    justify-content: center;
 
 }
 #people img{
@@ -193,6 +258,7 @@ border-radius: 10px;
 width: 70px;
 height: 70px;
 object-fit: cover;
+
 
 }
 #media{
@@ -206,6 +272,70 @@ height: 20px;
 #footer{
 display: flex;
 gap: 50px;
+justify-content: center;
+}
+#green span{
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+#news span{
+   font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+
+}
+#quick span{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+#media span{
+text-align: center;
+color: grey;
+font-size: 10px;
+}
+#news button{
+background-color: green;
+width: 200px;
+height:30px;
+border: none;
+border-radius: 5px;
+color: white;
+}
+input{
+width: 200px;
+height:30px;
+}
+#italic{
+text-align: center;
+
+}
+#italic span{
+color: rgb(17, 199, 17);
+
+}
+#clients{
+display: flex;
+justify-content: center;
+}
+#clients span{
+font-size: xx-large;
+
+}
+#clients p{
+color: green;
+
+}
+p{
+text-align: center;
+/* color: green; */
+}
+#latest span{
+display: flex;
+justify-content: center;
+font-size: xx-large;
 }
 #item{
 
