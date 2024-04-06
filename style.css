@@ -29,12 +29,12 @@ margin-left: 00px;
 
 }
 #template{
-    background-image: url("images/threepts.webp");
+    background-image: url("images/SUMMER.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 width:500px ;
 height: 400px;
-margin-top: 300px;
+margin-bottom: 30px;
 object-fit: cover;
 border-radius: 10px;
 
@@ -65,21 +65,25 @@ background: width 100px; ;
 background-repeat: no-repeat;
 color: white;
 background-size: cover;
-width: 300px;
-height: 150px;
+width: 250px;
+height: 250px;
 border-radius: 10px;
 }
 #house{
 background-image: url("images/SEVEN.jpg");
 color: white;
 background-size: cover;
-width: 300px;
-height: 150px;
+width: 250px;
+height: 250px;
 border-radius: 10px;
 }
+#spring span{
+font-size: x-large;
+
+}
 #bottle img{
-width: 400px;
-height: 300px;
+width: 500px;
+height: 400px;
 border-radius: 5px;
 
 }
@@ -93,12 +97,29 @@ justify-content: center;
 margin-top: 12px;
 
 }
+#bold p{
+font-weight: bold;
+font-size: larger;
+
+}
+#bold span{
+  color: grey;
+   font-size: medium; 
+}
+#bold l{
+color: rgb(67, 202, 67);
+
+}
+#orchid img{
+border-radius: 10px;
+
+}
 #off{
 background-image: url("images/THREE.jpg");
 color: white;
 background-size: cover;
-width: 300px;
-height: 150px;
+width: 250px;
+height: 250px;
 border-radius: 10px;
 }
 #allplants{
@@ -111,14 +132,14 @@ font-size: xx-large;
 }
 #new{
 display: flex;
-gap: 20px;
+gap: 10px;
 justify-content: center;
+margin-left: 250px;
 
 }
 #new img{
-height: 500px;
-width: 500px;
-margin-top: 100px;
+height: 400px;
+width: 400px;
 object-fit: cover;
 
 }
@@ -127,7 +148,7 @@ font-size: xx-large;
 
 }
 #white span{
-color: green;
+color: rgb(113, 182, 11);
 display: flex;
 justify-content: center;
 }
@@ -136,6 +157,55 @@ height: 400px;
 width: 300px;
 object-fit: cover;
 border-radius: 10px;
+margin-bottom: 40px;
+margin-left: 65px;
+}
+#pop span{
+color: rgb(137, 223, 9);
+margin-left: 200px;
+margin-bottom: 40px;
+}
+#pop p{
+    margin-left: 100px;
+color: grey;
+}
+#pop button{
+border-radius: 5px;
+color: white;
+background-color: rgb(131, 214, 7);
+width: 200px;
+height: 50px;
+border: none;
+margin-left: 130px;
+}
+#the span{
+font-size: xx-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#the p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: grey;
+text-align: start;
+font-size: 14px;
+}
+#the b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: normal;
+
+}
+#the label{
+color: grey;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: small;
+}
+#the button{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(131, 214, 7);
+    width: 150px;
+    height: 40px;
+    border: none;
+
 }
 #upper{
 
@@ -144,21 +214,38 @@ border-radius: 10px;
     justify-content: center;
 
 }
+#be label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: xx-large;
+}
+#be span{
+color: green;
+font-size: x-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#be p{
+color: grey;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 #lower{
 
     display: flex;
     gap: 50px;
+    margin-top: 80px;
+
  
 }
 #lower img{
-width: 200px;
-height: 250px;
+width: 150px;
+height: 170px;
     object-fit: cover;
     border-radius: 20px;
 }
 #upper img{
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 170px;
     object-fit: cover;
     border-radius: 20px;
 
@@ -169,9 +256,33 @@ display: flex;
 justify-content: center;
 gap: 50px;
 }
+#black label{
+color: grey;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 13px;
+}
+#black span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;  
+font-weight: normal;
+
+    
+}
+#black p{
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    
+}
+#black b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: normal;
+    
+}
 
 #item{
 display: flex;
+justify-content: center;
 gap: 15px;
 
 }
@@ -179,7 +290,9 @@ gap: 15px;
 background-color: rgb(22, 187, 22);
 border-radius: 5px;
 border: none;
-margin-left: 200px;
+color: white;
+width: 90px;
+height: 40px;
 }
 #stem{
     display: flex;
@@ -201,20 +314,35 @@ background-size: cover;
 width: 700px;
 height: 300px;
 border-radius: 10px;
-margin-left: 600px;
 text-align: center;
+margin-left: 600px;
 
 }
+#price span{
+font-size: xx-large;
+
+}
+
 #three img{
 border-radius: 20px;
 
 }
 #grow{
   font-size: xx-large;  
-  justify-content: center;
   display: flex;
+  margin-left: 550px;
 }
+#stem figcaption{
+    text-align: center;
+}
+#stem span{
+color: green;
 
+}
+#stem b{
+color: grey;
+   text-decoration: line-through; 
+}
 #only{
 
     display: flex;
@@ -230,7 +358,7 @@ margin-left: 100px;
 }
 #be{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     justify-content: center;
 
 }
@@ -271,7 +399,7 @@ height: 20px;
 }
 #footer{
 display: flex;
-gap: 50px;
+gap: 80px;
 justify-content: center;
 }
 #green span{
@@ -337,7 +465,353 @@ display: flex;
 justify-content: center;
 font-size: xx-large;
 }
-#item{
 
 
-}
+
+
+@media screen and (max-width:920px) and (min-width:320px){
+    #USD{
+        display: block;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        background-color: rgb(79, 138, 79);
+        color: white;
+        font-size: medium;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        }
+        #navbar{
+            display: block;
+        justify-content: center;
+        gap:80px ;
+        }
+        #icons img{
+        width: 20px;
+        height: 20px;
+        
+        
+        
+        }
+        #logo img{
+        width: 100px;
+        height: 50px;
+        object-fit: cover;
+        margin-left: 00px;
+        
+        }
+        #template{
+            background-image: url("images/threepts.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:500px ;
+        height: 400px;
+        margin-top: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        
+        }
+        #template i{
+        font-size: xx-large;
+        
+        
+        }
+        
+        #flowerpots{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        
+        }
+        #choices{
+        display: flex;
+        gap: 50px;
+        }
+        #choice{
+        display: flex;
+        gap: 50px;
+        }
+        #sale{
+        background-image: url("images/SIX.jpg");
+        background: width 100px; ;
+        background-repeat: no-repeat;
+        color: white;
+        background-size: cover;
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        }
+        #house{
+        background-image: url("images/SEVEN.jpg");
+        color: white;
+        background-size: cover;
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        }
+        #bottle img{
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+        
+        }
+        #home{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        
+        }
+        #or{
+        margin-top: 12px;
+        
+        }
+        #off{
+        background-image: url("images/THREE.jpg");
+        color: white;
+        background-size: cover;
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        }
+        #allplants{
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-around; */
+        gap: 70px;
+        font-size: xx-large;
+        
+        }
+        #new{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        
+        }
+        #new img{
+        height: 500px;
+        width: 500px;
+        margin-top: 100px;
+        object-fit: cover;
+        
+        }
+        #white p{
+        font-size: xx-large;
+        
+        }
+        #white span{
+        color: green;
+        display: flex;
+        justify-content: center;
+        }
+        #pop img{
+        height: 400px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        }
+        #upper{
+        
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        
+        }
+        #lower{
+        
+            display: flex;
+            gap: 50px;
+         
+        }
+        #lower img{
+        width: 200px;
+        height: 250px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        #upper img{
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 20px;
+        
+        
+        }
+        #bottle{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        }
+        
+        #item{
+        display: flex;
+        gap: 15px;
+        
+        }
+        #item button{
+        background-color: rgb(22, 187, 22);
+        border-radius: 5px;
+        border: none;
+        margin-left: 200px;
+        }
+        #stem{
+            display: flex;
+        gap: 40px;
+        justify-content: center;
+        
+        
+        }
+        #stem img{
+            width: 150px;
+            height: 200px;
+            border-radius: 10px;
+        
+        }
+        #price{
+        background-image: url("images/pot13.avif");
+        color: white;
+        background-size: cover;
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 00px;
+        /* text-align: center; */
+        display: block;
+        background-position: left 100px;
+        
+        }
+        #three img{
+        border-radius: 20px;
+        
+        }
+        #grow{
+          font-size: xx-large;  
+          justify-content: center;
+          display: block;
+        }
+        
+        #only{
+        
+            display: block;
+            gap: 40px;
+            justify-content: center;
+        }
+        #person img{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: rgb(224, 213, 213);
+        margin-left: 100px;
+        }
+        #be{
+            display: block;
+            gap: 40px;
+            justify-content: center;
+        
+        }
+        #two img{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        }
+        #urban img{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: rgb(224, 213, 213);
+        
+        }
+        #people{
+            display: block;
+            gap: 40px;
+            justify-content: center;
+        
+        }
+        #people img{
+            border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        
+        
+        }
+        #media{
+        display: block;
+        gap: 20px;
+        }
+        #media img{
+        width: 20px;
+        height: 20px;
+        }
+        #footer{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        }
+        #green span{
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        }
+        #news span{
+           font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        
+        }
+        #quick span{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        
+        }
+        #media span{
+        text-align: center;
+        color: grey;
+        font-size: 10px;
+        }
+        #news button{
+        background-color: green;
+        width: 200px;
+        height:30px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        }
+        input{
+        width: 200px;
+        height:30px;
+        }
+        #italic{
+        text-align: center;
+        
+        }
+        #italic span{
+        color: rgb(17, 199, 17);
+        
+        }
+        #clients{
+        display: flex;
+        justify-content: center;
+        }
+        #clients span{
+        font-size: xx-large;
+        
+        }
+        #clients p{
+        color: green;
+        
+        }
+        p{
+        text-align: center;
+        }
+        #latest span{
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        }
+       
+        
+        
+        
+    }        
